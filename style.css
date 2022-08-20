@@ -7,6 +7,7 @@
 .topnav {
     margin: 5px;
 }
+
 ul {
     list-style-type: one;
     margin: 0;
@@ -27,6 +28,12 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
     font-weight: 400;
+}
+
+h1 {
+    font-weight: 200;
+    text-align: center;
+    color: #536DB3 /*#B4CE4D*/
 }
 
 /* Change the link color to #111 (black) on hover */
