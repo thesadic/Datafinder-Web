@@ -66,4 +66,9 @@ const config = {
     }
 };
 
-const myChart = new Chart(ctx,config);
+var myChart = new Chart(ctx,config);
+
+function refreshGraph1() {
+    myChart.destroy()
+    myChart = new Chart(ctx,config);
+}
